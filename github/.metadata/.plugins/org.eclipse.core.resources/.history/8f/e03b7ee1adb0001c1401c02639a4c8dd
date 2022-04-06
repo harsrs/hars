@@ -1,0 +1,33 @@
+package com.capgemini.day5;
+
+public class MyString {
+	
+	public static void main(String[] args) {
+		
+    String str="hello";		
+	String str1=new String("hello");
+	String str2="hello word";
+	
+	//equal
+	if(str.equals(str1))
+	{
+		System.out.println("true");
+	} 
+	else 
+	{
+		System.out.println("false");
+	}
+	
+	//compare
+	String one="A";
+	String two="B";
+	System.out.println(one.compareTo(two));
+	
+	//char
+	str.charAt(0);
+	System.out.println(str.charAt(0));
+	
+	//concat
+	System.out.println(str.concat(str1));
+	}
+}

@@ -1,0 +1,72 @@
+package com.capgemini.day5;
+
+public class MyString {
+	
+	public static void main(String[] args) {
+		
+    String str="hello";		
+	String str1=new String("hello");
+	String str2="hello word";
+	
+	//equal
+	if(str.equals(str1))
+	{
+		System.out.println("true");
+	} 
+	else 
+	{
+		System.out.println("false");
+	}
+	
+	//compare
+	String one="A";
+	String two="B";
+	System.out.println(one.compareTo(two));
+	
+	//char
+	str.charAt(0);
+	System.out.println(str.charAt(0));
+	
+	//concat
+	System.out.println(str.concat(str1));
+	
+	//string to byte array
+	byte[] b=str.getBytes();
+	System.out.println(str.indexOf("e"));
+	
+    String str4="";
+    System.out.println(str4.isBlank());
+    
+    //length
+    System.out.println(str.length());
+    
+    //new and old replace with new value
+    str.replace("H", "j");
+    System.out.println(str.replace("H", "j"));
+    
+    // character sequence
+    System.out.println(str.subSequence(0, 3));
+    
+    //to upper case
+    System.out.println(str.toUpperCase());
+    
+    // to lower case
+    System.out.println(str.toLowerCase());
+    
+    // remove the space front and back
+    String str6="     hello      world   ";
+    System.out.println(str6.trim());
+    System.out.println(str6);
+    
+    System.out.println(str.subSequence(0, 3));
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+}

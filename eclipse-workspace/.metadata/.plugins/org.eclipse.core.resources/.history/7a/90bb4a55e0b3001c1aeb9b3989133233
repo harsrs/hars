@@ -1,0 +1,20 @@
+package com.capgemini.day7;
+
+import java.util.HashMap;
+import java.util.TreeMap;
+
+public class MyLaptop {
+
+	public static void main(String[] args) {
+		
+		
+		HashMap<Integer, Laptop> map=new HashMap<Integer, Laptop>();
+		//map.put("abc", 1001);
+		
+		//map.put("1001", new Laptop("Hp", 10));
+		
+		Laptop s=new Laptop("hp", 10);
+		System.out.println(s);
+		
+	}
+}

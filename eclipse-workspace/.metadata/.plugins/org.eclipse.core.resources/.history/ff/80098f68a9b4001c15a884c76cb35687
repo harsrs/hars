@@ -1,0 +1,21 @@
+package caom.capgemini.day8;
+
+public class LambdaEvenOrOdd {
+	
+	public static void main(String[] args) {
+		
+		int n=10;
+		Lambda result= () -> System.out.println("Hello Java lambda");
+		result.print();
+		
+		if(n>0)
+		{
+			System.out.println("it is a even");
+		}
+		else
+		{
+			System.out.println("it is a odd");
+		}
+	}
+
+}

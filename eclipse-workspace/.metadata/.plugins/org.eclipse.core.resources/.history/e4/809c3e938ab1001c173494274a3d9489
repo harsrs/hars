@@ -1,0 +1,9 @@
+package com.capgemini.day5;
+
+public class LinkedList {
+	public static void main(String[] args) {
+		LinkedList<Integer> Is=new LinkedList<Integer>();
+		
+	}
+
+}

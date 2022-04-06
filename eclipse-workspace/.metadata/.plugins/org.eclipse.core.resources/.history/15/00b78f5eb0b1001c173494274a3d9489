@@ -1,0 +1,16 @@
+package com.capgemini.day6;
+
+import java.util.ArrayList;
+
+public class EmployeeMain {
+
+	ArrayList<Employee> ts=new ArrayList<Employee>();
+	Employee s=new Employee("harshitha", 4611);
+	ts=add(10);
+	
+	for(Employee e:i)
+	{
+		System.out.println(e);
+	}
+	
+}

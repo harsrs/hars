@@ -1,0 +1,22 @@
+package com.capgemini.day5;
+
+public class IntArray {
+	public static void main(String[] args) {
+		
+		int [][]arr=new int[2][1];
+		arr[0][0]=10;
+		arr[0][1]=20;
+		arr[1][0]=30;
+		arr[1][1]=40;
+		for(int []i:arr)
+		{
+			for(int j:i)
+			{
+				System.out.println(j+ ",");
+			}
+			System.out.println();
+		}
+		
+	}
+
+}

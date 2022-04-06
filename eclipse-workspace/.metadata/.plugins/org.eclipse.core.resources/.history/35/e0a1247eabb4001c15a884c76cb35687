@@ -1,0 +1,30 @@
+package caom.capgemini.day8;
+
+interface modLambda
+{
+	public void print(int a);
+}
+
+interface even 
+{
+	public void evennum(int a);
+}
+public class LambdaEvenOrOdd {
+	
+	public static void main(String[] args) {
+		
+		int n=10;
+		Lambda result= () -> System.out.println("Hello Java lambda");
+		result.print();
+		
+		modLambda modInterface=(int a) ->
+		{
+			if(a%2==0)
+			System.out.println("it is even"+a);
+			System.out.println("it is even"+a);
+		};
+		
+		//modLambda.println(10);
+	}
+
+}

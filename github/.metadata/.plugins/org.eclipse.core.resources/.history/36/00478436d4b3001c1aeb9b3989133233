@@ -1,0 +1,32 @@
+package com.capgemini.day7;
+
+import java.util.Hashtable;
+import java.util.Set;
+
+public class Student {
+	
+	public static void main(String[] args) {
+		Hashtable<Integer, String> map=new Hashtable<Integer, String>();
+		map.put(1001, "harshitha");
+		map.put(1002, "harshi");
+		map.put(1003, "priya");
+		map.put(1004, "radha");
+		
+		System.out.println(map.get(1004));
+		System.out.println(map.get(1001));
+		
+		Set<Integer> keys=map.keySet();
+		
+		for(Integer key : keys)
+		{
+			System.out.println("key "  +map.keySet());
+		}
+		
+		map.clear();
+		
+		map.contains("1011");
+		
+		System.out.println(map.containsValue("harshitha"));
+	}
+	
+}

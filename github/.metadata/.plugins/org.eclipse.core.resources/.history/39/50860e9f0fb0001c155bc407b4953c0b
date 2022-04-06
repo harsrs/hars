@@ -1,0 +1,46 @@
+package com.capgemini.Oops;
+
+class Flight
+{
+	String name;
+	int no;
+	Flight(String a, int b)
+	{
+		this.name=a;
+		this.no=b;
+	}
+	public void aeroplane()
+	{
+		System.out.println("Landing");
+	}
+	public void aerospace()
+	{
+		System.out.println("space comprising");
+	}
+}
+
+class fly extends Flight
+{
+	public void bird()
+	{
+		System.out.println("peacock");
+	}
+	public void animal()
+	{
+		System.out.println("lion");
+	}
+}
+public class MethodOverLoading {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Flight r=new Flight("Boeing", 747);
+		r.aeroplane();
+		r.aerospace();
+		fly s=new fly();
+		s.bird();
+		s.animal();
+				
+	}
+
+}

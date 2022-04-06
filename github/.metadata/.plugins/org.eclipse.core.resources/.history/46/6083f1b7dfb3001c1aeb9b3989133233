@@ -1,0 +1,17 @@
+package com.capgemini.day7;
+
+public class Student {
+
+	int rollno;
+	String name;
+	
+	public Student(int i, String string) {
+		// TODO Auto-generated constructor stub
+		this.id=a;
+		
+	}
+
+	
+
+	
+}

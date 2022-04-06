@@ -1,0 +1,14 @@
+package com.capgemini.day5;
+
+public class MyArray {
+	public static void main(String[] args) {
+		
+		//int 
+		int arr[]=new int[];
+		//string
+		String arr1[]=new String[5];
+		
+		
+	}
+
+}

@@ -1,0 +1,30 @@
+package com.capgemini.day2;
+
+class a
+{
+	public void A()
+	{
+		System.out.println("print A");
+	}
+}
+
+class b extends a
+{
+	public void B()
+	{
+		System.out.println("print B");
+	}
+} 
+
+public class SingleLevel {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		b s=new b();
+		s.A();
+		s.B();
+		c t=new c();
+		t.A();
+	}
+
+}

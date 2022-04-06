@@ -1,0 +1,20 @@
+package com.capgemini.day5;
+
+import java.util.Collections;
+import java.util.LinkedList;
+
+public class LinkedListOperator {
+	public static void main(String[] args) {
+		LinkedList<Integer> Is=new LinkedList<Integer>();
+		Is.add(10);
+		Is.add(20);
+		Is.add(30);
+		Is.add(40);
+		
+		Collections.sort(Is,Collections.reverseOrder());
+		System.out.println(Is.contains(400));
+		System.out.println(Is.equals(35));
+		Is.forEach(System.err::println);
+	}
+
+}

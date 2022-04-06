@@ -1,0 +1,38 @@
+package com.capgemini.day7;
+
+import java.util.TreeMap;
+
+public class MyMap {
+	public static void main(String[] args) {
+		TreeMap<Integer, String> map=new TreeMap<Integer, String>();
+		  TreeMap<String, Integer> map1=new TreeMap<String, Integer>();
+		  
+		  map1.put("abc", 1001);
+		  
+		  TreeMap<Integer, Student> map2=new TreeMap<Integer, Student>();
+		  map2.put(1001, new Student(1001,"abc","1000"));
+	      map2.put(1001, new Student(1001,"abc","1000"));
+	      map2.put(1001, new Student(1001,"abc","1000"));
+	      map2.put(1001, new Student(1001,"abc","1000"));
+	      map2.put(1001, new Student(1001,"abc","1000"));
+	      
+	      TreeMap<Student, Student> map3 = new TreeMap<Student, Student>();
+
+	         TreeMap<Student, Integer> map4 = new TreeMap<Student, Integer>();
+
+	         TreeMap<Student, String> map5 = new TreeMap<Student, String>();
+	         map5.put(null, null);
+	         
+	         map5.pollFirstEntry();
+	         map.pollLastEntry();
+	         
+	         map5.descendingKeySet();
+	         
+	         map5.firstKey();
+	         map5.lastKey();
+	         
+	}
+	
+	
+	  
+}

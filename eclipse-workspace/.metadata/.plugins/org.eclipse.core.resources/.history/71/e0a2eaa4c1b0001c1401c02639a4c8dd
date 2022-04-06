@@ -1,0 +1,11 @@
+package com.capgemini.day5;
+
+public class FloatArray {
+	public static void main(String[] args) {
+		
+		float[]arr=new float[1];
+	    arr[1]=9;
+	    System.out.println(arr[1]);
+		
+	}
+}

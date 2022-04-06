@@ -1,0 +1,10 @@
+package com.capgemini.day6;
+
+public class Student {
+
+	public Object getName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

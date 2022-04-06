@@ -1,0 +1,13 @@
+package com.capgemini.day5;
+
+public class IntArray {
+	public static void main(String[] args) {
+		
+		int arr[]=new int[1];
+		arr[1]=10;
+		System.out.println(arr[1]);
+		
+		
+	}
+
+}

@@ -1,0 +1,22 @@
+package com.capgemini.day5;
+
+public class MyString {
+	
+	public static void main(String[] args) {
+		
+    String str="hello";		
+	String str1=new String("hello");
+	String str2="hello word";
+	
+	if(str.equals(str1))
+	{
+		System.out.println("true");
+	} 
+	else 
+	{
+		System.out.println("false");
+	}
+	
+	
+	}
+}

@@ -1,0 +1,7 @@
+package com.capgemini.day5;
+
+public class IndexValueOfArray {
+	public static void main(String[] args) {
+		
+	}
+}
